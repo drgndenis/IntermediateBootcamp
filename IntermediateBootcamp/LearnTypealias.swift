@@ -7,9 +7,30 @@
 
 import SwiftUI
 
+struct MoviesModel {
+    let title: String
+    let director: String
+    let likeCount: Int
+}
+
+// Biz ozelligin digerini referans almasi
+typealias TvModel = MoviesModel
+
 struct LearnTypealias: View {
+    var MovieItem: MoviesModel = MoviesModel(title: "Movie Title", director: "Joe", likeCount: 5)
+    var tvItem: TvModel = TvModel(title: "TV Title", director: "McLeblanc", likeCount: 10)
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack(spacing: 20) {
+            Text(MovieItem.title)
+            Text(MovieItem.director)
+            Text("\(MovieItem.likeCount)")
+            Divider()
+            Text(tvItem.title)
+            Text(tvItem.director)
+            Text("\(tvItem.likeCount)")
+        }
+        .font(.largeTitle)
     }
 }
 
