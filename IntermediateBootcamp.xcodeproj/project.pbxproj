@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		E20B4C352B04B83D00C29FA3 /* LearnCoreData.swift in Sources */ = {isa = PBXBuildFile; fileRef = E20B4C342B04B83D00C29FA3 /* LearnCoreData.swift */; };
 		E20B4C382B04B9C000C29FA3 /* FruitsContainer.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E20B4C362B04B9C000C29FA3 /* FruitsContainer.xcdatamodeld */; };
+		E22737C42B0791D700C0D19A /* DownloadWithEscaping.swift in Sources */ = {isa = PBXBuildFile; fileRef = E22737C32B0791D700C0D19A /* DownloadWithEscaping.swift */; };
+		E22737C62B07AA9400C0D19A /* DownloadWithCombine.swift in Sources */ = {isa = PBXBuildFile; fileRef = E22737C52B07AA9400C0D19A /* DownloadWithCombine.swift */; };
 		E22E6CFB2B04D0A3000395A3 /* CoreDataRelationship.swift in Sources */ = {isa = PBXBuildFile; fileRef = E22E6CFA2B04D0A3000395A3 /* CoreDataRelationship.swift */; };
 		E2581FA22AFFCE6400107A86 /* LearnMask.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2581FA12AFFCE6400107A86 /* LearnMask.swift */; };
 		E2581FA42AFFE9AA00107A86 /* LearnSounds.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2581FA32AFFE9AA00107A86 /* LearnSounds.swift */; };
@@ -36,6 +38,8 @@
 /* Begin PBXFileReference section */
 		E20B4C342B04B83D00C29FA3 /* LearnCoreData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearnCoreData.swift; sourceTree = "<group>"; };
 		E20B4C372B04B9C000C29FA3 /* FruitsContainer.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FruitsContainer.xcdatamodel; sourceTree = "<group>"; };
+		E22737C32B0791D700C0D19A /* DownloadWithEscaping.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadWithEscaping.swift; sourceTree = "<group>"; };
+		E22737C52B07AA9400C0D19A /* DownloadWithCombine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadWithCombine.swift; sourceTree = "<group>"; };
 		E22E6CFA2B04D0A3000395A3 /* CoreDataRelationship.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataRelationship.swift; sourceTree = "<group>"; };
 		E2581FA12AFFCE6400107A86 /* LearnMask.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearnMask.swift; sourceTree = "<group>"; };
 		E2581FA32AFFE9AA00107A86 /* LearnSounds.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearnSounds.swift; sourceTree = "<group>"; };
@@ -137,6 +141,8 @@
 				E2F0D9A82B05528D0033D330 /* LearnTypealias.swift */,
 				E28EB6302B0650840029CF49 /* LearnEscaping.swift */,
 				E28EB6322B0660130029CF49 /* LearnCodable.swift */,
+				E22737C32B0791D700C0D19A /* DownloadWithEscaping.swift */,
+				E22737C52B07AA9400C0D19A /* DownloadWithCombine.swift */,
 				E2F3DF942AFAA57300921053 /* Assets.xcassets */,
 				E2F3DF962AFAA57300921053 /* Preview Content */,
 			);
@@ -226,6 +232,7 @@
 				E2581FA22AFFCE6400107A86 /* LearnMask.swift in Sources */,
 				E2F3DF912AFAA57200921053 /* IntermediateBootcampApp.swift in Sources */,
 				E20B4C382B04B9C000C29FA3 /* FruitsContainer.xcdatamodeld in Sources */,
+				E22737C62B07AA9400C0D19A /* DownloadWithCombine.swift in Sources */,
 				E2F2A9AF2B00FB3200ADB7C7 /* LearnLocalNotification.swift in Sources */,
 				E2F3DF9F2AFAA5FB00921053 /* LearnLongPressGesture.swift in Sources */,
 				E28EB6332B0660130029CF49 /* LearnCodable.swift in Sources */,
@@ -238,6 +245,7 @@
 				E27FA5932AFD05AF00DEDC6C /* LearnDragGesture.swift in Sources */,
 				E2BF37B32AFBBE8D00A06DBD /* LearnRotationGesture.swift in Sources */,
 				E28EB6312B0650840029CF49 /* LearnEscaping.swift in Sources */,
+				E22737C42B0791D700C0D19A /* DownloadWithEscaping.swift in Sources */,
 				E2F0D9A92B05528D0033D330 /* LearnTypealias.swift in Sources */,
 				E25CD5B32B013FE700474B2B /* Arrays.swift in Sources */,
 				E2F0D9A52B052A9F0033D330 /* BackgroundThreads.swift in Sources */,
