@@ -18,7 +18,7 @@ class SubscriberViewModel: ObservableObject {
     @Published var showButton: Bool = false
     
     init() {
-        startTimer()
+//        startTimer()
         addTextFieldSubscriber()
         addButtonSubscriber()
     }
@@ -96,7 +96,7 @@ struct SubscriberView: View {
                 )
             
             CustomButton(action: {
-                
+                vm.resetTimer()
             }, text: "Submit".uppercased())
             
         }

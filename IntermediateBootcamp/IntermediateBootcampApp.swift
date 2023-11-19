@@ -11,7 +11,7 @@ import SwiftUI
 struct IntermediateBootcampApp: App {
     var body: some Scene {
         WindowGroup {
-            SubscriberView()
+            FileManagerView(manager: LocalFileManager())
         }
     }
 }
