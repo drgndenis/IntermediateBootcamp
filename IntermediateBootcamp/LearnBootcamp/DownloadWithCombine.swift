@@ -103,6 +103,6 @@ struct DownloadWithCombine: View {
     }
 }
 
-//#Preview {
-//    DownloadWithCombine()
-//}
+#Preview {
+    DownloadWithCombine()
+}

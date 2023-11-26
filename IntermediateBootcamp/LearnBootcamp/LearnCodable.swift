@@ -111,6 +111,6 @@ struct LearnCodable: View {
     }
 }
 
-//#Preview {
-//    LearnCodable()
-//}
+#Preview {
+    LearnCodable()
+}

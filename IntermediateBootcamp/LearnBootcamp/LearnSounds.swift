@@ -8,7 +8,7 @@
 import SwiftUI
 import AVKit
 
-class SoundManager {
+private class SoundManager {
     static let instance = SoundManager()
     
     var player: AVAudioPlayer?

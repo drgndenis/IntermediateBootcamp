@@ -205,19 +205,3 @@ struct FileManagerView: View {
 #Preview {
     FileManagerView(manager: LocalFileManager())
 }
-
-struct CustomButtonText: View {
-    let textName: String
-    let backgroundColor: Color
-    
-    var body: some View {
-        Text(textName)
-            .foregroundStyle(.white)
-            .font(.headline)
-            .bold()
-            .padding()
-            .padding(.horizontal)
-            .background(backgroundColor)
-            .clipShape(RoundedRectangle(cornerRadius: 10))
-    }
-}

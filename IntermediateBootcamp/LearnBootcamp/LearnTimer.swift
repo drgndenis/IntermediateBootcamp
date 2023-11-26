@@ -74,6 +74,6 @@ struct LearnTimer: View {
     }
 }
 
-//#Preview {
-//    LearnTimer()
-//}
+#Preview {
+    LearnTimer()
+}

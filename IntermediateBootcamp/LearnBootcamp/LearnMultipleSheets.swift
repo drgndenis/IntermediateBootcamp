@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct MultipleSheetsModel: Identifiable {
+private struct MultipleSheetsModel: Identifiable {
     let id = UUID().uuidString
     let title: String
 }
@@ -31,7 +31,7 @@ struct LearnMultipleSheets: View {
     }
 }
 
-struct NextView: View {
+private struct NextView: View {
     let selectedModel: MultipleSheetsModel
     
     var body: some View {

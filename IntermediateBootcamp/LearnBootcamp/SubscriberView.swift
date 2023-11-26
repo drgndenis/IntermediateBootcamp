@@ -109,7 +109,7 @@ struct SubscriberView: View {
     SubscriberView()
 }
 
-struct CustomButton: View {
+private struct CustomButton: View {
     @EnvironmentObject var  vm: SubscriberViewModel
     
     var action: () -> Void
