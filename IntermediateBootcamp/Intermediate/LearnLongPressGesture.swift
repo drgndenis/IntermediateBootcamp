@@ -28,7 +28,7 @@ struct LearnLongPressGesture: View {
                     .clipShape(RoundedRectangle(cornerRadius: 15))
                     .onLongPressGesture(
                         minimumDuration: 1.5,
-                        maximumDistance: 50,
+                        maximumDistance: 100,
                         pressing: { isPressing in
                             if isPressing {
                                 withAnimation(.easeInOut(duration: 1.5)) {
@@ -57,7 +57,7 @@ struct LearnLongPressGesture: View {
                     .background(.black)
                     .clipShape(RoundedRectangle(cornerRadius: 15))
                     .onTapGesture {
-                        withAnimation(.easeInOut(duration: 1.0)) {
+                        withAnimation(.easeInOut(duration: 1.5)) {
                             isSuccess = false
                             isComplate = false
                         }

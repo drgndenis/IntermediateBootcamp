@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		E20B4C352B04B83D00C29FA3 /* LearnCoreData.swift in Sources */ = {isa = PBXBuildFile; fileRef = E20B4C342B04B83D00C29FA3 /* LearnCoreData.swift */; };
 		E20B4C382B04B9C000C29FA3 /* FruitsContainer.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E20B4C362B04B9C000C29FA3 /* FruitsContainer.xcdatamodeld */; };
+		E211C2242B5821B500F3140F /* LearnViewBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = E211C2232B5821B500F3140F /* LearnViewBuilder.swift */; };
 		E2212F402B08CD6C0077168E /* LearnTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2212F3F2B08CD6C0077168E /* LearnTimer.swift */; };
 		E22737C42B0791D700C0D19A /* DownloadWithEscaping.swift in Sources */ = {isa = PBXBuildFile; fileRef = E22737C32B0791D700C0D19A /* DownloadWithEscaping.swift */; };
 		E22737C62B07AA9400C0D19A /* DownloadWithCombine.swift in Sources */ = {isa = PBXBuildFile; fileRef = E22737C52B07AA9400C0D19A /* DownloadWithCombine.swift */; };
@@ -25,6 +26,7 @@
 		E27FA5932AFD05AF00DEDC6C /* LearnDragGesture.swift in Sources */ = {isa = PBXBuildFile; fileRef = E27FA5922AFD05AF00DEDC6C /* LearnDragGesture.swift */; };
 		E27FA5952AFD116200DEDC6C /* LearnScrollViewReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = E27FA5942AFD116200DEDC6C /* LearnScrollViewReader.swift */; };
 		E28037522B0A894C0011FF32 /* CacheView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E28037512B0A894C0011FF32 /* CacheView.swift */; };
+		E2877EFC2B56EAB50005A6B6 /* LearnGenerics.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2877EFB2B56EAB50005A6B6 /* LearnGenerics.swift */; };
 		E28EB6312B0650840029CF49 /* LearnEscaping.swift in Sources */ = {isa = PBXBuildFile; fileRef = E28EB6302B0650840029CF49 /* LearnEscaping.swift */; };
 		E28EB6332B0660130029CF49 /* LearnCodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = E28EB6322B0660130029CF49 /* LearnCodable.swift */; };
 		E2BF37B12AFBB4E300A06DBD /* LearnMagnificationGesture.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2BF37B02AFBB4E300A06DBD /* LearnMagnificationGesture.swift */; };
@@ -52,6 +54,7 @@
 /* Begin PBXFileReference section */
 		E20B4C342B04B83D00C29FA3 /* LearnCoreData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearnCoreData.swift; sourceTree = "<group>"; };
 		E20B4C372B04B9C000C29FA3 /* FruitsContainer.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FruitsContainer.xcdatamodel; sourceTree = "<group>"; };
+		E211C2232B5821B500F3140F /* LearnViewBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearnViewBuilder.swift; sourceTree = "<group>"; };
 		E2212F3F2B08CD6C0077168E /* LearnTimer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearnTimer.swift; sourceTree = "<group>"; };
 		E22737C32B0791D700C0D19A /* DownloadWithEscaping.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadWithEscaping.swift; sourceTree = "<group>"; };
 		E22737C52B07AA9400C0D19A /* DownloadWithCombine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadWithCombine.swift; sourceTree = "<group>"; };
@@ -68,6 +71,7 @@
 		E27FA5922AFD05AF00DEDC6C /* LearnDragGesture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearnDragGesture.swift; sourceTree = "<group>"; };
 		E27FA5942AFD116200DEDC6C /* LearnScrollViewReader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearnScrollViewReader.swift; sourceTree = "<group>"; };
 		E28037512B0A894C0011FF32 /* CacheView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CacheView.swift; sourceTree = "<group>"; };
+		E2877EFB2B56EAB50005A6B6 /* LearnGenerics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearnGenerics.swift; sourceTree = "<group>"; };
 		E28EB6302B0650840029CF49 /* LearnEscaping.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearnEscaping.swift; sourceTree = "<group>"; };
 		E28EB6322B0660130029CF49 /* LearnCodable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearnCodable.swift; sourceTree = "<group>"; };
 		E2BF37B02AFBB4E300A06DBD /* LearnMagnificationGesture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearnMagnificationGesture.swift; sourceTree = "<group>"; };
@@ -169,7 +173,7 @@
 			path = Utililties;
 			sourceTree = "<group>";
 		};
-		E2672E6B2B0B9EAB00E951C6 /* LearnBootcamp */ = {
+		E2672E6B2B0B9EAB00E951C6 /* Intermediate */ = {
 			isa = PBXGroup;
 			children = (
 				E2F3DF9E2AFAA5FB00921053 /* LearnLongPressGesture.swift */,
@@ -199,7 +203,16 @@
 				E2616C8B2B0B947500F335D5 /* CustomButtonText.swift */,
 				E28037512B0A894C0011FF32 /* CacheView.swift */,
 			);
-			path = LearnBootcamp;
+			path = Intermediate;
+			sourceTree = "<group>";
+		};
+		E2877EFA2B56EA760005A6B6 /* Advanced */ = {
+			isa = PBXGroup;
+			children = (
+				E2877EFB2B56EAB50005A6B6 /* LearnGenerics.swift */,
+				E211C2232B5821B500F3140F /* LearnViewBuilder.swift */,
+			);
+			path = Advanced;
 			sourceTree = "<group>";
 		};
 		E2F2A9A72B00D6C900ADB7C7 /* SoundEffects */ = {
@@ -231,8 +244,9 @@
 			isa = PBXGroup;
 			children = (
 				E2F3DF902AFAA57200921053 /* IntermediateBootcampApp.swift */,
-				E2672E6B2B0B9EAB00E951C6 /* LearnBootcamp */,
+				E2672E6B2B0B9EAB00E951C6 /* Intermediate */,
 				E2672E662B0B9E6600E951C6 /* DownladingImages */,
+				E2877EFA2B56EA760005A6B6 /* Advanced */,
 				E2F3DF942AFAA57300921053 /* Assets.xcassets */,
 				E2F3DF962AFAA57300921053 /* Preview Content */,
 			);
@@ -338,6 +352,7 @@
 				E2581FA42AFFE9AA00107A86 /* LearnSounds.swift in Sources */,
 				E2F0D9A72B0531F60033D330 /* WeakSelf.swift in Sources */,
 				E2BF37B12AFBB4E300A06DBD /* LearnMagnificationGesture.swift in Sources */,
+				E211C2242B5821B500F3140F /* LearnViewBuilder.swift in Sources */,
 				E27FA5952AFD116200DEDC6C /* LearnScrollViewReader.swift in Sources */,
 				E28037522B0A894C0011FF32 /* CacheView.swift in Sources */,
 				E2E2435F2B0CBDAD0093DD79 /* PhotoModel.swift in Sources */,
@@ -347,6 +362,7 @@
 				E2212F402B08CD6C0077168E /* LearnTimer.swift in Sources */,
 				E2E2435B2B0CBB1D0093DD79 /* DownloadingImagesView.swift in Sources */,
 				E22737C42B0791D700C0D19A /* DownloadWithEscaping.swift in Sources */,
+				E2877EFC2B56EAB50005A6B6 /* LearnGenerics.swift in Sources */,
 				E26774A92B12406800676CBA /* PhotoModelCacheManager.swift in Sources */,
 				E2E243632B0CC92F0093DD79 /* DownloadingImagesRow.swift in Sources */,
 				E2F0D9A92B05528D0033D330 /* LearnTypealias.swift in Sources */,

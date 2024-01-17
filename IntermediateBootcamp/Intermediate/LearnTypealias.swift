@@ -13,7 +13,7 @@ struct MoviesModel {
     let likeCount: Int
 }
 
-// Biz ozelligin digerini referans almasi
+// Bir ozelligin digerini referans almasi
 typealias TvModel = MoviesModel
 
 struct LearnTypealias: View {
